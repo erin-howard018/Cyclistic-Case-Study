@@ -82,6 +82,7 @@ The tools I have decided to use for this analysis
 + Create ride length variable and filter out any invalid values
 + Create month variable
 + Create weekday variable
++ Create type of day variable
 -  Check for errors or invalid values
 + Check length of ride_id is 16 and unique
 + Check validity of rideable_type values
