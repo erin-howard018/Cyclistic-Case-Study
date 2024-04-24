@@ -57,4 +57,5 @@ filtered_data$start_station_name <- trimws(filtered_data$start_station_name)
 filtered_data$end_station_name <- trimws(filtered_data$end_station_name)
 
 # Export cleaned and modified data 
-write.csv(filtered_data, "pathname/filename.csv", row.names=FALSE)
+write.table(filtered_data, file = "pathname/filename.csv", sep = "\t",
+            row.names = TRUE)
