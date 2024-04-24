@@ -102,7 +102,36 @@ The tools I have decided to use for this analysis
 - R; Has the ability to do data cleaning, analysis and presentation through detailed visualisations. 
 - Tableau; An analytics platform that allows you to easily manipulate data and make complex and interactive visualisation dashboards.
 
-**Compare...**
+We want to answer the question "How do annual members and casual riders use Cyclistic bikes differently?",  so the focus of our analysis will be comparing Casual and Members (stored in variable called member_casual) across different variables to see in what ways they are the same and different. 
+
+**Compare count of rides across member and casual users**
+
+![](images/count_of_rides.png)
 
 Findings; 
+
+**Compare trip duration across member and casual users**
+
+Findings; 
+
+
+**Compare month across member and casual users**
+
+
+
+
+
+**Compare type of bike across member and casual users**
+
+
+tableau 
+
+**Compare day of week or type of day across member and casual users**
+
+
+**Compare time of day across member and casual users**
+
+Maps
+
+average ride length by time & member type
 
