@@ -5,8 +5,8 @@ Google Data Analytics Professional Certificate Capstone Project
 
 
 ## Table of contents
-- [Introduction](Introduction)
-- [Overview](Overview)
+- [Introduction](#Introduction)
+- [Overview](#Overview)
 - [Stage 1: Ask](Stage1Ask)
 - [Stage 2: Prepare](Stage2Prepare)
 - [Stage 3: Process](Stage3Process)
