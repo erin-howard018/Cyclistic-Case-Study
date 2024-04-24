@@ -1,0 +1,60 @@
+#Load libraries
+library(tidyverse)
+library(lubridate)
+
+# List files in local folder
+file_names <- list.files("pathname/csv_files", pattern = ".csv", full.names = TRUE)
+
+# Loop to read in all .csv files and rbind them into one single database
+full_data <- lapply(file_names, read_csv) %>% bind_rows 
+
+# Preview data
+head(full_data)
+
+# Check data types of all columns
+glimpse(full_data)
+
+
+# Make ride_length variable and filter out values smaller to or equal to 0
+full_data$ride_length <- full_data$ended_at-full_data$started_at
+full_data$ride_length <- as.numeric(full_data$ride_length)
+full_data$ride_length <- full_data$ride_length/60
+
+full_data2 <- full_data %>% filter(ride_length>0)
+
+#Create month variable
+full_data2$month <- months(full_data2$started_at)
+
+# Make weekday variable 
+full_data2$day_of_week <- weekdays(full_data2$started_at)
+
+#Make type of day variable
+filtered_data$type_of_day <- as.factor(ifelse(filtered_data$day_of_week %in% c('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'), "Weekday", "Weekend")) 
+
+# Check length of ride_id is 16 and unique
+sum(nchar(full_data2$ride_id) != 16)
+length(unique(full_data2$ride_id))
+
+# Check validity of rideable_type values
+unique(full_data2$rideable_type)
+
+# Check for missing values in started_at and ended_at columns
+sum(is.na(full_data2$started_at))
+sum(is.na(full_data2$ended_at))
+
+# Filter out rows that are missing either all information about starting location (start_station_name, start_lat and start_lng) or all information about ending location (end_station_name, end_lat and end_lng)
+filtered_data <- full_data2 %>% filter(!(
+  ((is.na(full_data2$start_station_name) & 
+      (is.na(full_data2$start_lat)|is.na(full_data2$start_lng))))|
+    (((is.na(full_data2$end_station_name) & 
+         (is.na(full_data2$end_lat)|is.na(full_data2$end_lng)))))))
+
+# Check validity of member_casual values
+unique(filtered_data$member_casual)
+
+# Trim station names
+filtered_data$start_station_name <- trimws(filtered_data$start_station_name)
+filtered_data$end_station_name <- trimws(filtered_data$end_station_name)
+
+# Export cleaned and modified data 
+write.csv(filtered_data, "pathname/filename.csv", row.names=FALSE)
