@@ -75,4 +75,20 @@ The tools I have decided to use for this analysis
 - Tableau; An analytics platform that allows you to easily manipulate data and make complex and interactive visualisation dashboards.
 
 
+** Summary of my steps of data cleaning and modification in R**
+- Imported 12 .csv files into R and combined into one singular dataset
+- Check data type of all columns
+- Create new variables
++ Create ride length variable and filter out any invalid values
++ Create month variable
++ Create weekday variable
+-  Check for errors or invalid values
++ Check length of ride_id is 16 and unique
++ Check validity of rideable_type values
++ Check for missing values in started_at and ended_at columns
++ Filter out rows that are missing either all information about starting location (start_station_name, start_lat and start_lng) or all information about ending location (end_station_name, end_lat and end_lng)
++ Check validity of member_casual values
++ Trim station names
+
+export 
 
