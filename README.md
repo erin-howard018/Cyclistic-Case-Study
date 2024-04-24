@@ -8,11 +8,11 @@ Google Data Analytics Professional Certificate Capstone Project
 - [Introduction](#Introduction)
 - [Overview](#Overview)
 - [Stage 1: Ask](#Stage-1-Ask)
-- [Stage 2: Prepare](Stage2Prepare)
-- [Stage 3: Process](Stage3Process)
-- [Stage 4: Analyse](Stage 4: Analyse)
-- [Stage 5: Share](Stage 5: Share)
-- [Stage 6:Act](Stage 6:Act)
+- [Stage 2: Prepare](#Stage-2-Prepare)
+- [Stage 3: Process](#Stage-3-Process)
+- [Stage 4: Analyse](#Stage-4-Analyse)
+- [Stage 5: Share](#Stage-5-Share)
+- [Stage 6:Act](#Stage-6-Act)
 
 ## Introduction 
 This analysis is a capstone project case study, the final part of the Google Data Analytics Professional Certificate. For this case study, assume the real-world position of a junior data analyst on the marketing analyst team at Cyclistic, a bike-share company in Chicago. 
