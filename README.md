@@ -54,7 +54,7 @@ Cyclistic Executive team; who will decide whether to approve the recommended mar
 ## Stage 2: Prepare 
 
 **Data source - location, licensing and privacy**
-The previous 12 months Cyclistic historical trip data (04/2024 to 03/2024)  for this analysis is publicly available dataset which can be accessed [here.](https://divvy-tripdata.s3.amazonaws.com/index.html) and is made available and licensed by Motivate International Inc under this [license.](https://divvybikes.com/data-license-agreement)
+The previous 12 months Cyclistic historical trip data (04/2024 to 03/2024)  for this analysis is publicly available dataset which can be accessed [here.](https://divvy-tripdata.s3.amazonaws.com/index.html) and is made available and licensed by Motivate International Inc under this [license.](https://divvybikes.com/data-license-agreement).
 Privacy concerns have been addressed with all personally identifiable information of riders being hidden through tokenisation or removed. 
 
 **Organisation and description of files**
@@ -71,8 +71,7 @@ A limitation of this data arises from removing the personally identifiable infor
 
 The tools I have decided to use for this analysis
 - Excel; Allows me to open up .csv files to familiarise myself with and explore the data. However, due to the capacity constraints of Excel supported file types, I will be using a different tool to combine files into a full dataset. 
-- R ;  A tool designed to handle large datasets, requiring fairly simple code and audit trail for reproducibility. R also has the ability to do data cleaning, analysis and presentation through detailed visualisations. 
-- Tableau; An analytics platform that allows you to easily manipulate data and make complex and interactive visualisation dashboards.
+- R ;  A tool designed to handle large datasets, requiring fairly simple code and audit trail for reproducibility. 
 
 
 **Summary of my steps of data cleaning and modification in R**
@@ -92,7 +91,18 @@ The tools I have decided to use for this analysis
   + Check validity of member_casual values
   + Trim station names
 
-Preview the R code I used to do these steps [here](code/stage3_process)
+Preview the R code I used to do these steps [here](code/stage3_process).
 
-export 
+A copy of the clean dataset is available [here](
+ 
+
+## Stage 4: Analyse
+
+The tools I have decided to use for this analysis
+- R; Has the ability to do data cleaning, analysis and presentation through detailed visualisations. 
+- Tableau; An analytics platform that allows you to easily manipulate data and make complex and interactive visualisation dashboards.
+
+**Compare...**
+
+Findings; 
 
