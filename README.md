@@ -104,32 +104,56 @@ The tools I have decided to use for this analysis
 
 We want to answer the question "How do annual members and casual riders use Cyclistic bikes differently?",  so the focus of our analysis will be comparing Casual and Members (stored in variable called member_casual) across different variables to see in what ways they are the same and different. 
 
-**Compare count of rides across member and casual users**
+**Compare count of rides across member and casual riders**
 
-![](images/count_of_rides.png)
+![Number of rides across Member and Casual riders](images/count_of_rides.png)
+
+Findings; There are more rides from members (64%) than casual users (36%).
+
+
+
+
+**Compare trip duration across member and casual riders**
+
+![Ride duration across Member and Casual riders](images/ride_duration.png)
+
+Findings; On average, we see that casual members have a longer trip duration (minutes), as well as a higher maximum trip duration. 
+
+
+
+
+**Compare rides per month across member and casual riders**
+
+![Ride per month across member and casual riders](images/months_plot.png)
 
 Findings; 
+1. Both member and causal riders follow the same trend of number of rides across the months
+2. We see the most number of rides occur between May-September which makes sense as these are the spring/summer months.
 
-**Compare trip duration across member and casual users**
+
+
+
+**Compare type of bike across member and casual riders**
+
+![Bike type across Member and Casual riders](images/bike_type.png)
+
+![Bike type plot across Member and Casual riders](images/bike_type_plot.png)
 
 Findings; 
+1. Docked bikes are the least popular type of bike used across both rider types
+2. Casual riders; electric bikes are more popular than the classical bike and docked bike
+3. Member riders; electric bikes and classic bikes are equally popular, however members never use docked bikes
 
 
-**Compare month across member and casual users**
 
 
 
+The following analysis will be done using Tableau. Click here to acess the Tableau dashboard that contains the following graphs. 
+
+**Compare day of week or type of day across member and casual riders**
 
 
-**Compare type of bike across member and casual users**
-
-
-tableau 
-
-**Compare day of week or type of day across member and casual users**
-
-
-**Compare time of day across member and casual users**
+**Compare time of day across member and casual riders**
 
 Maps
 
