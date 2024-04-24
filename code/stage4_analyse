@@ -1,0 +1,32 @@
+#Load libraries
+library(tidyverse)
+library(lubridate)
+library(ggplot2)
+
+# Import cleaned data
+data <- read.table("path/cleaned_data.txt", sep = "\t", header = TRUE)
+
+# Compare count of rides across member and casual riders
+data %>% group_by(member_casual) %>% summarise(n())
+
+# Compare trip duration across member and casual riders
+data %>% group_by(member_casual) %>% summarise(median(ride_length),mean(ride_length), min(ride_length), max(ride_length))
+
+# Compare rides per month across member and casual riders
+months_of_year <- c("January", "February", "March", "April", 
+                    "May", "June", "July", "August", "September", "October", "November", "December")
+
+ggplot(data) +
+  geom_bar(aes(x = factor(month, months_of_year), fill=member_casual), position = 'dodge') +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  labs(title = "How does number of trips \nchange across months?", subtitle = "Broken down by rider type", x= "Month", y="Number of Rides")
+
+
+#Compare type of bike across member and casual users
+table(data$member_casual, data$rideable_type)
+
+ggplot(data) +
+  geom_bar(aes(x=rideable_type,  fill=member_casual), position="fill") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  labs(title = "How does type of bike differ across \nmember and casual riders?", x= "Bike type", y="Proportion of Riders")
+  
