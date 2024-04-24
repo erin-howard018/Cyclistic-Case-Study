@@ -83,11 +83,12 @@ The tools I have decided to use for this analysis
   + Create month variable
   + Create weekday variable
   + Create type of day variable
--  Check for errors or invalid values
+
+- Check for errors or invalid values
   + Check length of ride_id is 16 and unique
   + Check validity of rideable_type values
   + Check for missing values in started_at and ended_at columns
-  + Filter out rows that are missing either all information about starting location (start_station_name, start_lat and start_lng) or all information about ending location (end_station_name, end_lat and end_lng)
+  + Filter out rows that are missing either all information about starting location (start_station_name, start_lat and start_lng) or all information about ending   location(end_station_name, end_lat and end_lng)
   + Check validity of member_casual values
   + Trim station names
 
