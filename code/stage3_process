@@ -3,7 +3,7 @@ library(tidyverse)
 library(lubridate)
 
 # List files in local folder
-file_names <- list.files("pathname/csv_files", pattern = ".csv", full.names = TRUE)
+file_names <- list.files("pathname/csv_files", pattern = "-divvy-tripdata.csv", full.names = TRUE)
 
 # Loop to read in all .csv files and rbind them into one single database
 full_data <- lapply(file_names, read_csv) %>% bind_rows 
