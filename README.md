@@ -92,5 +92,7 @@ The tools I have decided to use for this analysis
   + Check validity of member_casual values
   + Trim station names
 
+Preview the R code I used to do these steps [here](code/stage3_process)
+
 export 
 
