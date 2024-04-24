@@ -29,7 +29,7 @@ full_data2$month <- months(full_data2$started_at)
 full_data2$day_of_week <- weekdays(full_data2$started_at)
 
 #Make type of day variable
-filtered_data$type_of_day <- as.factor(ifelse(filtered_data$day_of_week %in% c('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'), "Weekday", "Weekend")) 
+full_data$type_of_day <- as.factor(ifelse(full_data$day_of_week %in% c('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'), "Weekday", "Weekend")) 
 
 # Check length of ride_id is 16 and unique
 sum(nchar(full_data2$ride_id) != 16)
