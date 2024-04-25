@@ -187,7 +187,7 @@ Findings;
 It is important to communicate the findings of my analysis to the stakeholders. 
 I have decided to take the visualisations I have created and present them in an interactive PowerBI dashboard.
 
-
+![](PowerBI_Dashboard.pdf)
 
 
 ## Stage 6: Act
