@@ -178,6 +178,9 @@ Findings;
 ![Ending location for member and casual riders](images/ending_location.png)
 
 Findings;
+1. Both the starting and ending location maps are similar within each group of member and casual riders, but differ between the two groups.
+2. Casual riders; For both starting and ending locations of rides, casual riders have a higher density along the waterfront. This makes sense is casual riders are more likely to take trips for leisure, they would enjoy cycling along the water front.
+3. Member riders; For both starting and ending locations of rides,  member riders have a higher density in central Chicago, the CBD area. This makes sense is member riders seem to commonly use the bikes to commute to their works, which would be located in the CBD a lot of the time. 
 
 ## Stage 5: Share
 
