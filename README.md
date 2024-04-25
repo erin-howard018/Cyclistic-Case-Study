@@ -13,6 +13,7 @@ Google Data Analytics Professional Certificate Capstone Project
 - [Stage 4: Analyse](#Stage-4-Analyse)
 - [Stage 5: Share](#Stage-5-Share)
 - [Stage 6:Act](#Stage-6-Act)
+- [Conclusion](#Conclusion)
 
 ## Introduction 
 This analysis is a capstone project case study, the final part of the Google Data Analytics Professional Certificate. For this case study, assume the real-world position of a junior data analyst on the marketing analyst team at Cyclistic, a bike-share company in Chicago. 
@@ -206,6 +207,8 @@ We have realised that the behaviour of casual and members riders is quite differ
 
 I will detail my top three recommendations to guide this marketing strategy based on my analysis. 
 1. We are aware that casual riders tend to use Cyclistic bikes over the weekend. In order to attract more casual riders to buy an annual subscription, Cyclistic could think about introducing a discounted weekend-only membership. We can see that this would appeal to the casual riders because they prefer to ride for leisure and on weekends in particular, and hence is a reason why they haven't purchased an annual pass already because they don't redeem the value  of the bikes as much during the week. 
-2. 
-3. Based on the general location trends on casual riders, it would be useful to advertise the membership on billboards, signage or docking locations around the waterfront area where casual riders tend to ride. This would increase exposure of the marketing campaign to the target audience of casual riders, especially to those that are already thinking about or using a Cyclistic bike in the area. 
+2.  Based on the general location trends on casual riders, it would be useful to advertise the membership on billboards, signage or docking locations around the waterfront area where casual riders tend to ride. This would increase exposure of the marketing campaign to the target audience of casual riders, especially to those that are already thinking about or using a Cyclistic bike in the area.
+3.  As stated previously, we are aware that casual members have a focus on riding for leisure. To exploit this market, Cyclistic could team up with local Chicago tourist sites or entertainment businesses to offer entertainment discount packages for casual members who sign up to a yearly membership. For example, these packages could include discounts at local restaurants or passes to tourist attractions once a month. This would help attract casual riders to a membership as they will experience a benefit in the leisue activities they enjoy, as well as have an incentive to ride more because of the activities on offer so they will see the membership as good value. 
 
+
+## Conclusion
