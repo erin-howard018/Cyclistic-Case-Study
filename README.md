@@ -118,7 +118,7 @@ Findings;
 
 ![Ride duration across Member and Casual riders](images/ride_duration.png)
 
-Findings; On average, we see that casual members have a longer trip duration (in minutes), as well as a higher maximum trip duration. 
+Findings; On average, we see that casual riders have a longer trip duration (in minutes), as well as a higher maximum trip duration. 
 
 
 
