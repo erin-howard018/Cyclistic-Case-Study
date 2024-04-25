@@ -184,11 +184,18 @@ Findings;
 
 ## Stage 5: Share
 
-It is important to communicate the findings of my analysis to the stakeholders, Lily Moreno and my team of data analysts
-. 
+It is important to communicate the findings of my analysis to the stakeholders, Lily Moreno and my team of data analysts.
+
 I have decided to take the visualisations I have created and present the key findings in an interactive PowerBI dashboard.
 - The static PDF version of which you can view [here](PowerBI_Dashboard.pdf)
 - Or the interactive PowerBI file can be downloaded from this [onedrive link](https://1drv.ms/u/s!AqvuCFP-bj7x_0bnnYOQ_LzEXyGJ?e=FrYufv)
 
 
 ## Stage 6: Act
+
+The data analysis I have conducted has uncovered a lot of insights from our data which helps us answer our intended question of "How do annual members and casual riders use Cyclistic bikes differently?".
+Answering this question will help inform our business task; to design a new marketing strategy that will convert casual raiders into annual members. 
+
+I will detail my top three recommendations to guide this marketing strategy based on my analysis. 
+1. 
+
