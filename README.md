@@ -55,7 +55,7 @@ Cyclistic Executive team; who will decide whether to approve the recommended mar
 ## Stage 2: Prepare 
 
 **Data source - location, licensing and privacy**
-The previous 12 months Cyclistic historical trip data (04/2024 to 03/2024)  for this analysis is publicly available dataset which can be accessed [here.](https://divvy-tripdata.s3.amazonaws.com/index.html) and is made available and licensed by Motivate International Inc under this [license.](https://divvybikes.com/data-license-agreement).
+The previous 12 months Cyclistic historical trip data (04/2024 to 03/2024)  for this analysis is publicly available dataset which can be accessed [here](https://divvy-tripdata.s3.amazonaws.com/index.html) and is made available and licensed by Motivate International Inc under this [license](https://divvybikes.com/data-license-agreement).
 Privacy concerns have been addressed with all personally identifiable information of riders being hidden through tokenisation or removed. 
 
 **Organisation and description of files**
