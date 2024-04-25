@@ -185,9 +185,7 @@ Findings;
 ## Stage 5: Share
 
 It is important to communicate the findings of my analysis to the stakeholders. 
-I have decided to take the visualisations I have created and present them in an interactive PowerBI dashboard.
-
-![view](PowerBI_Dashboard.pdf)
+I have decided to take the visualisations I have created and present them in an interactive PowerBI dashboard, the PDF version of which you can view [here](PowerBI_Dashboard.pdf)
 
 
 ## Stage 6: Act
