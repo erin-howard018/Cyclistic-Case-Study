@@ -184,7 +184,7 @@ Findings;
 
 ## Stage 5: Share
 
-It is important to communicate the findings of my analysis to the stakeholders, Lily Moreno and my team of data analysts.
+It is important to communicate the findings of my analysis to the stakeholders, Lily Moreno, the Cyclistic executive team and my team of data analysts.
 
 I have decided to take the visualisations I have created and present the key findings in an interactive PowerBI dashboard.
 - The static PDF version of which you can view [here](PowerBI_Dashboard.pdf)
@@ -196,6 +196,16 @@ I have decided to take the visualisations I have created and present the key fin
 The data analysis I have conducted has uncovered a lot of insights from our data which helps us answer our intended question of "How do annual members and casual riders use Cyclistic bikes differently?".
 Answering this question will help inform our business task; to design a new marketing strategy that will convert casual raiders into annual members. 
 
+Key findings from my analysis;
+1. Casual riders usage peaks during the weekend, have a longer average bike time, most commonly uses electric bikes and tend to start and end trips along the Chicago coast line. This indicates that most casual riders are using Cyclistic bikes for leisure purposes, and could comprise of tourists or families.
+2. Member riders on the other hand have peak usage during the weekdays and tend to ride around the CBD area which indicates that members are using Cyclistic to commute to and from work.
+3. We see the overall trend that ridership increases in May-September, the warmer months, and decreases during the winter months.
+4. Member riders make up majority of the rides within the past 12 month, which indicates that Cyclistic has reached a strong level of loyalty and usuage among its members. We see there is still an opportunity to convert more casual riders into members. 
+
+We have realised that the behaviour of casual and members riders is quite different, so in order to attract more members, we can think about ways that the membership might appeal to the behaviour casual riders. 
+
 I will detail my top three recommendations to guide this marketing strategy based on my analysis. 
-1. 
+1. We are aware that casual riders tend to use Cyclistic bikes over the weekend. In order to attract more casual riders to buy an annual subscription, Cyclistic could think about introducing a discounted weekend-only membership. We can see that this would appeal to the casual riders because they prefer to ride for leisure and on weekends in particular, and hence is a reason why they haven't purchased an annual pass already because they don't redeem the value  of the bikes as much during the week. 
+2. 
+3. Based on the general location trends on casual riders, it would be useful to advertise the membership on billboards, signage or docking locations around the waterfront area where casual riders tend to ride. This would increase exposure of the marketing campaign to the target audience of casual riders, especially to those that are already thinking about or using a Cyclistic bike in the area. 
 
