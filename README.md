@@ -30,9 +30,9 @@ Undertaking this certified course has introduced me to the six steps of the data
 - The direction for future marketing strategies will be focused on the opportunity to convert causal riders into annual members and therefore my team must understand how casual and annual members use Cyclistic bikes differently. 
 
 **Tools** 
-- Excel;
+- Excel
 - R
-- Tableau
+- PowerBI
 
 
 ## Stage 1: Ask
@@ -212,3 +212,7 @@ I will detail my top three recommendations to guide this marketing strategy base
 
 
 ## Conclusion
+
+This analysis was a capstone project case study, the final part of the Google Data Analytics Professional Certificate. I have documented my journey of taking the Cyclistic dataset through the stages of the data analysis process; Ask, Prepare, Process, Analyse, Share and Act. 
+
+Through these efforts, I have gained valuable insights about the data, and put into practice the methods and principles I have learnt in the Google Data Analytics Professional Certificate program. 
