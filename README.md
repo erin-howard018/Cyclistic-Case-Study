@@ -108,8 +108,9 @@ We want to answer the question "How do annual members and casual riders use Cycl
 
 ![Number of rides across Member and Casual riders](images/count_of_rides.png)
 
-Findings; There are more rides from members (64%) than casual users (36%).
-
+Findings; 
+1. There are more rides from members (64%) than casual users (36%).
+2. Because we do not have the ability to access PPI, we are unable to tell what rides are from repeat users in both the member and casual groups. 
 
 
 
@@ -117,7 +118,7 @@ Findings; There are more rides from members (64%) than casual users (36%).
 
 ![Ride duration across Member and Casual riders](images/ride_duration.png)
 
-Findings; On average, we see that casual members have a longer trip duration (minutes), as well as a higher maximum trip duration. 
+Findings; On average, we see that casual members have a longer trip duration (in minutes), as well as a higher maximum trip duration. 
 
 
 
@@ -127,8 +128,8 @@ Findings; On average, we see that casual members have a longer trip duration (mi
 ![Ride per month across member and casual riders](images/months_plot.png)
 
 Findings; 
-1. Both member and causal riders follow the same trend of number of rides across the months
-2. We see the most number of rides occur between May-September which makes sense as these are the spring/summer months.
+1. Both member and causal riders follow the same general trend of number of rides across the months. 
+2. We see the most number of rides occur between May-September which makes sense as these are the spring/summer months, and lowest ride activity from December-January as these are the winter months. 
 
 
 
@@ -140,22 +141,50 @@ Findings;
 ![Bike type plot across Member and Casual riders](images/bike_type_plot.png)
 
 Findings; 
-1. Docked bikes are the least popular type of bike used across both rider types
-2. Casual riders; electric bikes are more popular than the classical bike and docked bike
-3. Member riders; electric bikes and classic bikes are equally popular, however members never use docked bikes
+1. Docked bikes are the least popular type of bike used across both rider types.
+2. For casual riders; electric bikes are more popular than the classical bike and docked bike
+3. For member riders; electric bikes and classic bikes are equally popular, however members do not use docked bikes.
 
 
 
 
 
-The following analysis will be done using Tableau. Click here to acess the Tableau dashboard that contains the following graphs. 
+The following analysis will be done using PowerBI. Click here to acess the PowerBI dashboard that contains the following graphs. 
 
-**Compare day of week or type of day across member and casual riders**
+**Compare day of week across member and casual riders**
+
+![day of week across member and casual riders](images/day_of_week.jpg)
+
+Findings; 
+1. We can see quite a different trend in rides across days between members and casual riders.
+2. Casual riders; Peak usage occurs across the weekend indicaing casual members may tend to enjoy lesiure trips over using bikes for a work commute. 
+3. Member riders; Peak usage occurs during the week and drops off during the weekend indicating that members may tend to use bikes for their work commute.
 
 
 **Compare time of day across member and casual riders**
 
-Maps
+![Start time of rides across member and casual riders](images/time_of_rides.jpg)
 
-average ride length by time & member type
+Findings;
+1. Interestingly start time of rides is similar across member and casual riders. 
+2. Casual riders; We see that the most common times of day to start a trip for casual riders is 9am and 6pm - suggesting that some casual members may still use bikes for a work commute or may just enjoy a leisurely evening bike ride.   
+3. Member riders; We see 3 relatively strong peaks for common time of day to start a trip for member riders being 9am, 12pm and 6pm. This helps to confirm the suspicion that a lot of members use the bike for their work commute as well as during their lunch break.
 
+
+**Compare starting and ending lat/lng between member and casual riders**
+
+![Starting location for member and casual riders](images/starting_location.png)
+
+![Ending location for member and casual riders](images/ending_location.png)
+
+Findings;
+
+## Stage 5: Share
+
+It is important to communicate the findings of my analysis to the stakeholders. 
+I have decided to take the visualisations I have created and present them in an interactive PowerBI dashboard.
+
+
+
+
+## Stage 6: Act
